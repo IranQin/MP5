@@ -2,7 +2,7 @@
 <p align="center"> <img src="Image/logo.png" height=100> </p>
 <div align="center">
   
-## SmartEdit: Exploring Complex Instruction-based Image Editing with Multimodal Large Language Models
+## MP5: A Multi-modal Open-ended Embodied System in Minecraft via Active Perception
 [[Paper](https://arxiv.org/abs/2312.07472)]
 [[Project Page](https://iranqin.github.io/MP5.github.io/)]
 [Demo] <be>
