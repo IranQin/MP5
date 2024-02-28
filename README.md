@@ -9,9 +9,9 @@
 </div>
 
 <br>
-## News
+### News
 
-**We are currently organizing the code for MP5. If you are interested in our work, please star ⭐ our project. 
+**We are currently organizing the code for MP5. If you are interested in our work, please star ⭐ our project.**
 
 - **(2024/2/28)** MP5 is accepted to CVPR 2024!!!
 - **(2023/12/12)** MP5 is released on [arXiv](https://arxiv.org/abs/2312.07472v2).
