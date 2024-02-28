@@ -2,7 +2,7 @@
 <p align="center"> <img src="Image/logo.png" height=100> </p>
 <div align="center">
 
-## [CVPR2024] MP5: A Multi-modal Open-ended Embodied System in Minecraft via Active Perception
+## MP5: A Multi-modal Open-ended Embodied System in Minecraft via Active Perception
 [[Paper](https://arxiv.org/abs/2312.07472v2)]
 [[Project Page](https://iranqin.github.io/MP5.github.io/)]
 [[Demo](https://www.youtube.com/watch?v=AZeS3C_S_3M)]
