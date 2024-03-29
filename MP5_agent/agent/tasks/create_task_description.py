@@ -1,6 +1,6 @@
 from utils import *
 
-openai_key = "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"
+openai_key = ""
 
 os.environ["OPENAI_API_KEY"] = openai_key
 
