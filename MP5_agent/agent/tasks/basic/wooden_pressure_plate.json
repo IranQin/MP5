@@ -1,0 +1,33 @@
+[
+    {
+        "task": "wooden pressure plate",
+        "quantity": 1,
+        "material": {
+            "planks": 2
+        },
+        "tool": null,
+        "platform": null,
+        "tips": "1 wooden pressure plate can be crafted with 2 planks and do not need any tool and any platform.",
+        "description": "Craft 1 wooden pressure plate using 2 planks without needing any tool or platform."
+    },
+    {
+        "task": "planks",
+        "quantity": 4,
+        "material": {
+            "log": 1
+        },
+        "tool": null,
+        "platform": null,
+        "tips": "4 planks can be crafted with 1 log and do not need any tool and any platform. the number of planks can only be crafted in multiples of 4",
+        "description": "Craft 4 planks using 1 logs without needing any tool or platform."
+    },
+    {
+        "task": "log",
+        "quantity": 1,
+        "material": null,
+        "tool": null,
+        "platform": null,
+        "tips": "log is obtained by mining wood. log can only be mined with bare hands.",
+        "description": "Mine 1 logs by mining wood without needing any tool or platform."
+    }
+]

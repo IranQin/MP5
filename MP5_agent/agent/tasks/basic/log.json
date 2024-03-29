@@ -1,0 +1,11 @@
+[
+    {
+        "task": "log",
+        "quantity": 1,
+        "material": null,
+        "tool": null,
+        "platform": null,
+        "tips": "log is obtained by mining wood. log can only be mined with bare hands.",
+        "description": "Mine 1 logs by mining wood without needing any tool or platform."
+    }
+]

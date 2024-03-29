@@ -1,0 +1,8 @@
+My information is as follows: 
+- task information:
+{task_information}
+- current environment information:
+{current_environment_information}
+- inventory: {inventory}
+
+Remember to follow the response format.

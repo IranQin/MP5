@@ -1,0 +1,120 @@
+[
+    {
+        "task": "iron pickaxe",
+        "quantity": 1,
+        "material": {
+            "iron ingot": 3,
+            "stick": 2
+        },
+        "tool": null,
+        "platform": "crafting table",
+        "tips": "1 iron pickaxe can be crafted with 3 iron ingot and 2 stick as the material and crafting table as the platform.",
+        "description": "Craft 1 iron pickaxe using 3 iron ingot and 2 stick on a crafting table as the platform."
+    },
+    {
+        "task": "iron ingot",
+        "quantity": 3,
+        "material": {
+            "iron ore": 3
+        },
+        "tool": null,
+        "platform": "furnace",
+        "tips": "1 iron ingot can be crafted with 1 iron ore as the material and furnace as the platform",
+        "description": "Craft 3 iron ingot using 3 iron ore in a furnace as the platform."
+    },
+    {
+        "task": "iron ore",
+        "quantity": 3,
+        "material": null,
+        "tool": "stone pickaxe",
+        "platform": null,
+        "tips": "iron ore is obtained by mining iron ore. iron ore is most found in level 42. iron ore can only be mined with a stone pickaxe or better; using a wooden or gold pickaxe will yield nothing.",
+        "description": "Mine 3 iron ore using a stone pickaxe as the tool, primarily found at level 42."
+    },
+    {
+        "task": "stone pickaxe",
+        "quantity": 1,
+        "material": {
+            "cobblestone": 3,
+            "stick": 2
+        },
+        "tool": null,
+        "platform": "crafting table",
+        "tips": "1 stone pickaxe can be crafted with 3 cobblestone and 2 stick as the material and crafting table as the platform.",
+        "description": "Craft 1 stone pickaxe using 3 cobblestone and 2 stick on a crafting table as the platform."
+    },
+    {
+        "task": "furnace",
+        "quantity": 1,
+        "material": {
+            "cobblestone": 8
+        },
+        "tool": null,
+        "platform": "crafting table",
+        "tips": "1 furnace can be crafted with 8 cobblestone as the material and crafting table as the platform.",
+        "description": "Craft 1 furnace using 8 cobblestone on a crafting table as the platform."
+    },
+    {
+        "task": "cobblestone",
+        "quantity": 11,
+        "material": null,
+        "tool": "wooden pickaxe",
+        "platform": null,
+        "tips": "cobblestone is obtained by mining stone. stone is most found in level 55. cobblestone can only be mined with a wooden pickaxe or better; using bare hands will yield nothing.",
+        "description": "Mine 11 cobblestone using a wooden pickaxe as the tool, primarily found at level 55."
+    },
+    {
+        "task": "wooden pickaxe",
+        "quantity": 1,
+        "material": {
+            "planks": 3,
+            "stick": 2
+        },
+        "tool": null,
+        "platform": "crafting table",
+        "tips": "1 wooden pickaxe can be crafted with 3 planks and 2 stick as the material and crafting table as the platform.",
+        "description": "Craft 1 wooden pickaxe using 3 planks and 2 stick on a crafting table as the platform."
+    },
+    {
+        "task": "crafting table",
+        "quantity": 1,
+        "material": {
+            "planks": 4
+        },
+        "tool": null,
+        "platform": null,
+        "tips": "1 crafting table can be crafted with 4 planks and do not need any tool and any platform.",
+        "description": "Craft 1 crafting table using 4 planks without any tool or platform."
+    },
+    {
+        "task": "stick",
+        "quantity": 8,
+        "material": {
+            "planks": 4
+        },
+        "tool": null,
+        "platform": null,
+        "tips": "8 stick can be crafted with 4 planks and do not need any tool and any platform. the number of stick can only be crafted in multiples of 4",
+        "description": "Craft 8 stick using 4 planks without needing any tool or platform."
+    },
+    {
+        "task": "planks",
+        "quantity": 12,
+        "material": {
+            "log": 3
+        },
+        "tool": null,
+        "platform": null,
+        "tips": "12 planks can be crafted with 3 log and do not need any tool and any platform. the number of planks can only be crafted in multiples of 4",
+        "description": "Craft 12 planks using 3 logs without needing any tool or platform."
+    },
+    {
+        "task": "log",
+        "quantity": 3,
+        "material": null,
+        "tool": null,
+        "platform": null,
+        "tips": "log is obtained by mining wood. log can only be mined with bare hands.",
+        "description": "Mine 3 logs by mining wood without needing any tool or platform."
+    }
+]

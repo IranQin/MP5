@@ -1,0 +1,50 @@
+task_information:
+{
+    "task": "log",
+    "task type": "standardized",
+    "quantity": 3,
+    "material": null,
+    "tool": null,
+    "platform": null,
+    "tips": "log is obtained by mining wood. log can only be mined with bare hands.",
+    "description": "Mine 3 logs by mining wood without needing any tool or platform."
+}
+
+perception_answer:
+{
+    "thoughts": "The task requires 3 logs, and there are no logs in the inventory. We need to find a wood block to mine.",
+    "success": False,
+    "query": {
+        "type": "Block",
+        "question": "What types of blocks are shown in the given image?"
+    }
+}
+
+current_environment_information:
+[
+    {
+        "type": "The type of question previously asked to the Perceptor",
+        "info": "Respond with the perceptual information gained after asking Perceptor"
+    },
+    ...
+]  
+
+
+workflow:
+{ 
+    "explanation": "explain why the last action failed, set to empty string for the first planning", 
+    "thoughts": "Your thoughts on the plan in natural languag", 
+    "action_list": [ 
+        {"name": "action name", "args": {"arg name": value}, "expectation": "describe the expected results of this action"}, 
+        {"name": "action name", "args": {"arg name": value}, "expectation": "describe the expected results of this action"}, 
+        {"name": "action name", "args": {"arg name": value}, "expectation": "describe the expected results of this action"} 
+    ] 
+}
+
+
+check:
+{
+    "feedback": "You have enough materials to craft a wooden pickaxe, but you didn't craft it.",
+    "success": false,
+    "suggestion": "Craft a wooden pickaxe with a crafting table using 3 spruce planks and 2 stick."
+}

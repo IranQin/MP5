@@ -1,0 +1,44 @@
+[
+    {
+        "task": "boat",
+        "quantity": 1,
+        "material": {
+            "planks": 5
+        },
+        "tool": null,
+        "platform": "crafting table",
+        "tips": "1 boat can be crafted with 5 planks as the material and crafting table as the platform.",
+        "description": "Craft 1 boat using 5 planks on a crafting table as the platform."
+    },
+    {
+        "task": "crafting table",
+        "quantity": 1,
+        "material": {
+            "planks": 4
+        },
+        "tool": null,
+        "platform": null,
+        "tips": "1 crafting table can be crafted with 4 planks and do not need any tool and any platform.",
+        "description": "Craft 1 crafting table using 4 planks without any tool or platform."
+    },
+    {
+        "task": "planks",
+        "quantity": 12,
+        "material": {
+            "log": 3
+        },
+        "tool": null,
+        "platform": null,
+        "tips": "12 planks can be crafted with 3 log and do not need any tool and any platform. the number of planks can only be crafted in multiples of 4",
+        "description": "Craft 12 planks using 3 logs without needing any tool or platform."
+    },
+    {
+        "task": "log",
+        "quantity": 3,
+        "material": null,
+        "tool": null,
+        "platform": null,
+        "tips": "log is obtained by mining wood. log can only be mined with bare hands.",
+        "description": "Mine 3 logs by mining wood without needing any tool or platform."
+    }
+]

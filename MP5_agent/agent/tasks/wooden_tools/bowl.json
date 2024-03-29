@@ -1,0 +1,44 @@
+[
+    {
+        "task": "bowl",
+        "quantity": 4,
+        "material": {
+            "planks": 3
+        },
+        "tool": null,
+        "platform": "crafting table",
+        "tips": "4 bowl can be crafted with 3 planks as the material and crafting table as the platform. the number of bowl can only be crafted in multiples of 4",
+        "description": "Craft 4 bowl using 3 planks on a crafting table as the platform."
+    },
+    {
+        "task": "crafting table",
+        "quantity": 1,
+        "material": {
+            "planks": 4
+        },
+        "tool": null,
+        "platform": null,
+        "tips": "1 crafting table can be crafted with 4 planks and do not need any tool and any platform.",
+        "description": "Craft 1 crafting table using 4 planks without any tool or platform."
+    },
+    {
+        "task": "planks",
+        "quantity": 8,
+        "material": {
+            "log": 2
+        },
+        "tool": null,
+        "platform": null,
+        "tips": "8 planks can be crafted with 2 log and do not need any tool and any platform. the number of planks can only be crafted in multiples of 4",
+        "description": "Craft 8 planks using 2 logs without needing any tool or platform."
+    },
+    {
+        "task": "log",
+        "quantity": 2,
+        "material": null,
+        "tool": null,
+        "platform": null,
+        "tips": "log is obtained by mining wood. log can only be mined with bare hands.",
+        "description": "Mine 2 logs by mining wood without needing any tool or platform."
+    }
+]
