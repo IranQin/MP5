@@ -92,7 +92,7 @@ Note: We provide all the code except the human designed interface code, which yo
 ### MineLLM service
 To start the MineLLM service, please execute the following steps:
 
-1. Download checkpoints from [web]
+1. Download checkpoints from [web](https://huggingface.co/IranQin/MineLLM/tree/main)
 2. Put the checkpoints into `LAMM/ckpt` and `cd LAMM`.
 3. Start the MineLLM service by running: `. src/scripts/mllm_api_slurm.sh`, need to be changed if you do not use slurm.
 
