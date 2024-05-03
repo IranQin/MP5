@@ -82,9 +82,11 @@ pip install -r requirement.txt
  
 To train MineLLM from scratch, please execute the following steps:
 
-1. Download datasets from [web]
-2. Put the datasets into `LAMM/datasets/2D_Instruct` and `cd LAMM`.
-3. Train the agent by running: `. src/scripts/train_lamm2d_mc_v1.5_slurm.sh`, need to be changed if you do not use slurm.
+1. Download datasets from [huggingface](https://huggingface.co/datasets/IranQin/MP5_dataset)
+2. git clone the `LAMM` codebase: `cd MP5` and `git clone https://github.com/IranQin/LAMM`
+3. Put the datasets into `LAMM/datasets/2D_Instruct` and `cd LAMM`.
+4. Download the MineCLIP weight `mineclip_image_encoder_vit-B_196tokens.pth` from [here](https://drive.google.com/file/d/1EGZLIefb8OsJ3mFCq9-AcSaG2GZRuech/view?usp=drive_link) and put it into the `model_zoo/mineclip_ckpt` folder.
+5. Train the agent by running: `. src/scripts/train_lamm2d_mc_v1.5_slurm.sh`, need to be changed if you do not use slurm.
 
 ## Running the agent
 Note: We provide all the code except the human designed interface code, which you can try to implement yourself or use [MineDreamer](https://sites.google.com/view/minedreamer/main) as a low level control module.
