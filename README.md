@@ -109,11 +109,12 @@ bash scripts/run_agent.sh
 ### Citation	
 If you find this repository useful for your work, please consider citing it as follows:
 ```
-@article{qin2023mp5,
+@inproceedings{qin2024mp5,
   title={MP5: A Multi-modal Open-ended Embodied System in Minecraft via Active Perception},
-  author={Yiran Qin and Enshen Zhou and Qichang Liu and Zhenfei Yin and Lu Sheng and Ruimao Zhang and Yu Qiao and Jing Shao},
-  booktitle={arXiv preprint arxiv:2312.07472},
-  year={2023}
+  author={Qin, Yiran and Zhou, Enshen and Liu, Qichang and Yin, Zhenfei and Sheng, Lu and Zhang, Ruimao and Qiao, Yu and Shao, Jing},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={16307--16316},
+  year={2024}
 }
 ```
 ```
